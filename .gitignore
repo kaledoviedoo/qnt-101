@@ -1,0 +1,12 @@
+# entorno virtual: se recrea con requirements.txt
+.venv/
+
+# secretos: claves de API (Alpha Vantage desde la semana 2, Alpaca en la 15)
+.env
+
+# basura de Python y Jupyter
+__pycache__/
+.ipynb_checkpoints/
+
+# archivos temporales de Excel
+~$*.xlsx
